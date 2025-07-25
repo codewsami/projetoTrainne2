@@ -1,0 +1,96 @@
+.site-header {
+  background: var(--Azuis-06, #0e1423);
+  padding: 1rem 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1400px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+  justify-content: flex-start;
+}
+
+.logo-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.logo-title {
+  color: #fff;
+  text-shadow: 0 4px 90px rgba(255, 255, 255, 0.25);
+  font-family: "Creative Vintage Regular";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -1px;
+}
+
+.search-bar-container {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.search-input {
+  display: flex;
+  width: 855px;
+  height: 65px;
+  padding: 7.999px 32px 7.999px 23.996px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9.998px;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.search-input::placeholder {
+  color: #8892b0;
+}
+
+.search-input:focus {
+  border-color: #eaa64d;
+  box-shadow: 0 0 0 3px rgba(234, 166, 77, 0.25);
+}
+
+.search-button {
+  display: none;
+}
+
+.nav-button-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-button {
+  background-color: #eaa64d;
+  color: #0e1423;
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: #f0b068;
+  transform: translateY(-2px);
+}
