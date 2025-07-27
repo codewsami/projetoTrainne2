@@ -3,21 +3,21 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+  padding: 5px, 0;
 }
 
 .header-nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 70%;
   max-width: 1180px;
+  gap: 2rem;
 }
 
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px;
-  justify-content: flex-start;
+  gap: 8px;
 }
 
 .logo-img {
@@ -27,49 +27,35 @@
 }
 
 .logo-title {
-  width: 120px;
   color: #fff;
   text-shadow: 0 4px 90px rgba(255, 255, 255, 0.25);
-  font-family: "Creative Vintage Regular BP";
-  font-size: 30px;
+  font-family: "Creative Vintage Regular";
+  font-size: 40px;
   font-style: normal;
   font-weight: 600;
-  line-height: 26px;
+  line-height: 36px;
   letter-spacing: -1px;
 }
 
 .search-bar-container {
-  flex: 2;
+  flex: 1;
   display: flex;
   justify-content: center;
-  padding: 0 2rem;
   position: relative;
 }
 
 .search-input {
-  display: flex;
   width: 100%;
-  height: 40px;
+  height: 32px;
   padding: 5px 20px;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 8px;
   border-radius: 10px;
   background: #fff;
-  position: relative;
+  padding: 4px, 12px;
 }
 
 .search-input::placeholder {
   color: #9c9c9c;
-  font-family: "Segoe UI";
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
-}
-
-.search-input:focus {
-  border-color: #eaa64d;
 }
 
 .search-button {
@@ -77,29 +63,35 @@
 }
 
 .search-extra-icon {
-  margin-left: 8px;
-  cursor: pointer;
   position: absolute;
-  right: 55px;
+  right: 10px;
   top: 20%;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  top: 25%;
 }
 
 .search-icon {
   width: 26px;
   height: 26px;
-  flex-shrink: 0;
 }
 
 .cart-button-pro {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px;
-  height: 44px;
-  padding: 14px 12px;
+  width: 100px;
+  height: 36px;
+  padding: 8px 10px;
   border-radius: 10px;
   background: var(--Amarelos-01, #eaa64d);
   box-shadow: 0 0 18px #eaa64d;
+  cursor: pointer;
+  margin-left: auto;
+  border-radius: 10px;
+  gap: -5px;
 }
 
 .cart-button-pro:hover {
@@ -107,27 +99,25 @@
   box-shadow: 0 0 25px rgba(247, 169, 59, 0.8);
 }
 
-/* O contêiner do ícone:*/
 .icon-container {
   position: relative;
 }
 
-/* O ícone em si */
 .cart-icon {
   width: 40px;
   height: 40px;
+  margin: 0;
 }
 
-/* A contagem de itens (o número "99") */
 .item-count {
   position: absolute;
-  top: -5px;
-  right: -10px;
+  top: -4px;
+  right: -5px;
   background-color: white;
   color: #f7a93b;
   border-radius: 7px;
-  padding: 1px 6px;
-  font-size: 12px;
+  padding: 1px 4px;
+  font-size: 10px;
   font-weight: bold;
 }
 
@@ -135,6 +125,5 @@
   color: #fff;
   font-family: "Creative Vintage Regular";
   font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
 }

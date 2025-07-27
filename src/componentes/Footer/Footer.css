@@ -88,12 +88,14 @@
   color: #fff;
 }
 
-.footer-column a {
-  color: #bdc3c7;
-  text-decoration: none;
-  margin-bottom: 10px;
-  font-size: 14px;
-  transition: color 0.3s;
+.fotter-after-columns {
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
 }
 
 .footer-bottom {

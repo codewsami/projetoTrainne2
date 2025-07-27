@@ -16,7 +16,7 @@ const Footer = () => {
 
         <div className="footer-column-group">
           <div className="title-text">
-            <h3>Powered By</h3>
+            <h3>Powered By:</h3>
           </div>
           <div className="footer-columns-container">
             <div className="footer-text"></div>
@@ -46,6 +46,11 @@ const Footer = () => {
                 Vinícios Conceição <br></br>
               </p>
             </div>
+          </div>
+          <div className="fotter-after-columns">
+            <p className="text-above">
+              Orientados por: Giovanni Piccolo e Tiago Almeida
+            </p>
           </div>
         </div>
       </div>
