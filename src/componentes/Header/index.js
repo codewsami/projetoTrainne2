@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import "./Header.css";
 
-const SearchIcon = () => <svg></svg>;
-
 const CartButton = ({ itemCount, onClick }) => {
   return (
     <div
@@ -12,7 +10,7 @@ const CartButton = ({ itemCount, onClick }) => {
       aria-label="Carrinho"
     >
       <div className="icon-container">
-        <img src="/carrinho.png" alt="Cart Icon" className="cart-icon" />
+        <img src="/carrinho.svg" alt="Cart Icon" className="cart-icon" />
         {itemCount > 0 && <span className="item-count">{itemCount}</span>}
       </div>
       <span className="cart-text">Cart</span>
@@ -45,9 +43,7 @@ function Header() {
             placeholder="Find Movie Titles"
             className="search-input"
           />
-          <button className="search-button" aria-label="Pesquisar">
-            <SearchIcon />
-          </button>
+          <button className="search-button" aria-label="Pesquisar"></button>
           <span className="search-extra-icon" aria-label="icone">
             <img src="/search.svg" alt="icone barra" className="search-icon" />
           </span>

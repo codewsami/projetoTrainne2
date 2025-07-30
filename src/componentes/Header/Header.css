@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "Creative-Vintage";
+  src: url(/public/minhaFonte.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 .site-header {
   background: var(--Azuis-06, #0e1423);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -29,10 +36,10 @@
 .logo-title {
   color: #fff;
   text-shadow: 0 4px 90px rgba(255, 255, 255, 0.25);
-  font-family: "Creative Vintage Regular";
+  font-family: "Creative-Vintage";
   font-size: 40px;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 36px;
   letter-spacing: -1px;
 }
@@ -69,7 +76,7 @@
   cursor: pointer;
   width: 20px;
   height: 20px;
-  right: 10px;
+  right: 15px;
   top: 25%;
 }
 
@@ -91,7 +98,7 @@
   cursor: pointer;
   margin-left: auto;
   border-radius: 10px;
-  gap: -5px;
+  gap: 10px;
 }
 
 .cart-button-pro:hover {
@@ -123,7 +130,11 @@
 
 .cart-text {
   color: #fff;
-  font-family: "Creative Vintage Regular";
-  font-size: 32px;
-  font-weight: 500;
+
+  /* Headline/H4S */
+  font-family: "Creative-Vintage";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
 }
