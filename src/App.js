@@ -1,6 +1,7 @@
 import Header from "./componentes/Header/Header";
 import Footer from "./componentes/Footer/Footer";
 import Home from "./componentes/Home/Home";
+import FilmeDetalhes from "./componentes/FilmeDetalhes/FilmeDetalhes";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutUs from "./componentes/AboutUs/aboutUs";
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
+            <Route path="/filme/:id" element={<FilmeDetalhes />} />
           </Routes>
         </main>
         <Footer />
