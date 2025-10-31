@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "Creative-Vintage";
+  src: url(/public/minhaFonte.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer-container {
+  background: linear-gradient(0deg, #0e1423 28.35%, #01040d 100%);
+  width: 100%;
+  padding: 20px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: "Creative-Vintage";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.about-us {
+  color: var(--Azuis-05, #cce7ff);
+  font-family: "Segoe UI";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.about-us:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.about-us:active {
+  color: #a7d4fa;
+}
+
+.footer-column-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  padding-top: 80px;
+}
+
+.footer-columns-container {
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  display: flex;
+  gap: 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.fotter-after-columns {
+  color: #fff;
+  text-align: center;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ecf0f1;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo-section,
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .footer-column {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-column {
+    width: 100%;
+  }
+}
